@@ -38,7 +38,7 @@
         </div>
     </section>
     <section class="container-fluid main-content">
-        <div class="container main-content-container">
+        <div class="main-content-container">
             <div class="left-block">
                 <form action="contactformprocess.php" method="POST">
                     <h1>Contact Us</h1>
@@ -93,7 +93,7 @@
         </div>
     </section>
     <section class="container-fluid map">
-        <div class="container">
+        <div class="map-container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15155.35973554528!2d7.053823701658492!3d4.825412553570319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cbc0614a5abe34f!2sOmorofan%20EMT%20Nig%20Ltd!5e0!3m2!1sen!2sng!4v1621235141675!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>

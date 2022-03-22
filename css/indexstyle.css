@@ -261,14 +261,10 @@ nav .bars{
 }
 #about{
     display: grid;
-    display: -ms-grid;
     grid-template-columns: 1fr 2fr;
-    -ms-grid-columns: 1fr 80px 2fr;
     grid-template-rows: auto;
-    -ms-grid-rows: auto;
     column-gap: 80px;
-    grid-column-gap: 80px;
-    padding: 5px;
+    padding: 5px 0 50px 0;
     margin: 50px auto 100px;
 }
 #about-item{
@@ -854,17 +850,17 @@ nav .bars{
     #about{
         display: grid;
         margin-bottom: 10px;
-        grid-column-gap: 20px;
-        grid-row-gap: 40px;
-        -ms-grid-rows: auto 40px auto;
-        grid-template-rows: auto auto;
-        grid-template-areas: "."
-        ".";
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        column-gap: 20px;
+        row-gap: 40px;
+        grid-template-areas: 
+            "item"
+            "img";
+        
     }
     #about-item{
-        grid-area: 2 / 1 / 2 / 1;
+        grid-area: item;
         width: 80%;
         align-self: center;
         justify-self: center;
@@ -872,11 +868,11 @@ nav .bars{
         margin-bottom: 50px;
     }
     #about-img{
-        grid-area: 1 / 1 / 1 / 1;
+        grid-area: img;
         width: 75%;
         height: 400px;
         margin: 0px auto;
-        background-image: url('../img/photo7.jpg');
+        background-image: url('../img/photo15.jpeg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

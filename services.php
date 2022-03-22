@@ -39,32 +39,39 @@
         </div>
     </section>
     <section class="container-fluid main-content">
-        <div class="container main-content-container">
+        <div class="main-content-container">
             <div class="nav-block">
                 <ul>
                     <li class="nav-block-header">
                         <i class="fa fa-bars" aria-hidden="true"></i><a href="services.php"> Services</a>
                     </li>
                     <li class="sub-links">
-                        <a href="services/logging_units_tools_maintenance_and_repair.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Logging Unit Tools Maintenance and Repair</a>
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="services/logging_units_tools_maintenance_and_repair.php">Logging Unit Tools Maintenance and Repair</a></div> 
                     </li>
                     <li class="sub-links">
-                        <a href="services/process_systems_installation_and_maintenance.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Process Systems Installation and Maintenance</a>
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="services/process_systems_installation_and_maintenance.php">Process Systems Installation and Maintenance</a></div>
                     </li>
                     <li class="sub-links">
-                        <a href="services/storage_vessels_installation_and_maintenance.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Storage Vessels Installation and Maintenance</a>
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="services/storage_vessels_installation_and_maintenance.php">Storage Vessels Installation and Maintenance</a></div>
                     </li>
                     <li class="sub-links">
-                        <a href="services/medical_and_survey_equipment_maintenance.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Medical and Survey Equipment Maintenance</a>
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="services/medical_and_survey_equipment_maintenance.php">Medical and Survey Equipment Maintenance</a></div>
                     </li>
                     <!-- <li class="sub-links">
-                        <a href="services/warehouse_erection.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Warehouse Erection</a>
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="services/warehouse_erection.php">Warehouse Erection</a></div>
                     </li> -->
                     <li class="sub-links">
-                        <a href="services/technical_consultation.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Technical Consultation</a>
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="services/technical_consultation.php">Technical Consultation</a></div>
                     </li>
                     <li class="sub-links">
-                        <a href="services/dredging_and_reclamation.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Dredging and Reclamation</a>
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="services/dredging_and_reclamation.php">Dredging and Reclamation</a></div>
                     </li>
                 </ul>
             </div>

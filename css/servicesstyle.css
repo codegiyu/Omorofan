@@ -221,19 +221,19 @@ nav .bars{
 .main-content *{
     box-sizing: border-box;
     font-family: 'Roboto';
-    /* border: 1px solid black; */
 }
 .main-content-container{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .main-content .fa{
     margin-right: 15px;
 }
 .nav-block{
     width: 25%;
-    float: left;
 }
 .nav-block ul{
     width: 100%;
@@ -246,6 +246,23 @@ nav .bars{
     width: 100%;
     padding: 15px 25px;
     text-align: left;
+}
+.nav-block ul li.sub-links{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    grid-template-areas: 
+        "bullet link";
+}
+.sub-links .bullet{
+    width: 100%;
+    grid-area: bullet;
+    padding-top: 5px;
+}
+.sub-links .link{
+    width: 100%;
+    grid-area: link;
 }
 .nav-block ul li a{
     text-decoration: none;

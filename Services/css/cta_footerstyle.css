@@ -112,42 +112,26 @@ footer{
 }
 .row2{
     display: grid;
-    display: -ms-grid;
     margin-bottom: 20px;
-    grid-column-gap: 20px;
-    grid-gap: 20px;
-    -ms-grid-rows: auto;
-    grid-template-rows: auto;
-    grid-template-areas: ". . . .";
-    grid-template: 
-    "a   b   c   d" auto /
-    1fr 1fr 1fr 1fr;
-    -ms-grid-columns: 1.3fr 20px 1.9fr 20px 1fr 20px 1fr;
     grid-template-columns: 1.3fr 1.9fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    grid-template-areas: "logo contact hours info";
 }
 .col-logo{
-    grid-area: 1 / 1 / 1 / 1;
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
+    grid-area: logo;
     align-self: flex-start;
 }
 .col-contact{
-    grid-area: 1 / 2 / 1 / 2;
-    -ms-grid-row: 1;
-    -ms-grid-column: 2;
+    grid-area: contact;
     align-self: flex-start;
 }
 .col-office-hours{
-    grid-area: 1 / 3 / 1 / 3;
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;
+    grid-area: hours;
     align-self: flex-start;
-    justify-self: center;
 }
 .col-other-info{
-    grid-area: 1 / 4 / 1 / 4;
-    -ms-grid-row: 1;
-    -ms-grid-column: 4;
+    grid-area: info;
     align-self: flex-start;
     justify-self: right;
     padding-right: 30px;
@@ -303,39 +287,37 @@ table, td{
     .row2{
         display: grid;
         margin-bottom: 20px;
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-        -ms-grid-rows: auto 30px auto 30px auto 30px auto;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas: "."
-        "."
-        "."
-        ".";
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-row-gap: 30px;
+        grid-template-areas: 
+            "logo"
+            "contact"
+            "hours"
+            "info";
     }
     .col-logo{
-        grid-area: 1 / 1 / 1 / 1;
+        grid-area: logo;
         align-self: flex-start;
         justify-self: center;
     }
     .col-contact{
-        grid-area: 2 / 1 / 2 / 1;
+        grid-area: contact;
         align-self: flex-start;
-        justify-self: center;
-        text-align: center;
+        justify-self: left;
+        text-align: left;
     }
     .col-office-hours{
-        grid-area: 3 / 1 / 3 / 1;
+        grid-area: hours;
         align-self: flex-start;
-        justify-self: center;
-        text-align: center;
+        justify-self: left;
+        text-align: left;
     }
     .col-other-info{
-        grid-area: 4 / 1 / 4 / 1;
+        grid-area: info;
         align-self: flex-start;
-        justify-self: center;
-        text-align: center;
+        justify-self: left;
+        text-align: left;
         padding-right: 0px;
     }
     #contact{

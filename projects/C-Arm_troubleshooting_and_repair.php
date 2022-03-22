@@ -38,20 +38,23 @@
         </div>
     </section>
     <section class="container-fluid main-content">
-        <div class="container main-content-container">
+        <div class="main-content-container">
             <div class="nav-block">
                 <ul>
                     <li class="nav-block-header">
                         <i class="fa fa-bars" aria-hidden="true"></i><a href="../projects.php"> Projects</a>
                     </li>
-                    <li>
-                        <a href="field_operation_intervention.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Field Operation Intervention at Well Site</a>
+                    <li class="sub-links">
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="field_operation_intervention.php"> Field Operation Intervention at Well Site</a></div>
                     </li>
-                    <li class="nav-block-active">
-                        <a href="C-Arm_troubleshooting_and_repair.php"><i class="fa fa-caret-right" aria-hidden="true"></i> C-Arm Troubleshooting and Repair</a>
+                    <li class="sub-links nav-block-active">
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="C-Arm_troubleshooting_and_repair.php"> C-Arm Troubleshooting and Repair</a></div>
                     </li>
-                    <li>
-                        <a href="DC_MOT_troubleshooting_and_repair.php"><i class="fa fa-caret-right" aria-hidden="true"></i> D.C. M.O.T. Troubleshooting and Repair</a>
+                    <li class="sub-links">
+                        <div class="bullet"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+                        <div class="link"><a href="DC_MOT_troubleshooting_and_repair.php"> D.C. M.O.T. Troubleshooting and Repair</a></div>
                     </li>
                 </ul>
             </div>

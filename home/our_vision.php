@@ -38,7 +38,7 @@
         </div>
     </section>
     <section class="container-fluid main-content">
-        <div class="container main-content-container">
+        <div class="main-content-container">
             <div class="nav-block">
                 <ul>
                     <li class="nav-block-header">
