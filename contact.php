@@ -40,7 +40,7 @@
     <section class="container-fluid main-content">
         <div class="main-content-container">
             <div class="left-block">
-                <form action="contactformprocess.php" method="POST">
+                <form action="contactformprocess.php" method="post">
                     <h1>Contact Us</h1>
                     <p>We'll respond as soon as possible.</p>
                     <input type="text" class="longinput" name="name" placeholder="Name" required>
